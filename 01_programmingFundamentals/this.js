@@ -5,13 +5,14 @@ a = ['5', 6]
 
 
 function greet(){
-    console.log("hey there")
+    "use strict"
+    console.log(this)
 }
 
 // way 1
 // new greet();
 
 // way 2
-greet.call();
+greet();
 
 // way 3 
